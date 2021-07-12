@@ -19,7 +19,7 @@ export default class Aardvark{
     console.log(`Nom nom all the ${food}s`)
     }
     speak(noise) {
-        alert(`the ${this.name} says ${noise}!`)
+        console.log(`the ${this.name} says ${noise}!`)
     }
 
 }
